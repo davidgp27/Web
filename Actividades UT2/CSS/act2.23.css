@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    border-color: black;
+}
+thead ::first-letter{
+    text-transform: uppercase;
+}
+.hora {
+    background-color: green;
+}
+
+.Recreo {
+    background-color: yellow;
+}
+input[type="email"] {
+    padding: 10px;
+    width: 160px;
+    border: 1px solid red;
+}
+.letra ::first-letter {
+    font-size: 30px;
+}
+caption {
+    color: red;
+}

@@ -1,0 +1,38 @@
+#div1 {
+   float: left; 
+   background-color: grey;
+    height: 70px;
+    width: 25%;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-style: dotted;
+
+}
+#div2 {
+    float: right;
+    background-color: grey;
+    height: 70px;
+    width: 25%;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-style: dotted;
+}
+p {
+    text-align: center;
+    padding: 100px;
+    margin: 80px;
+    text-align: center;
+    
+}
+footer {
+    background-color: grey;
+    height: 40px;
+    width: 100%;
+    font-size: 1.3em;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    padding-top: 15px;
+}
