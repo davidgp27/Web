@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="clasePHP.php">
+        <header>
+        <h1>Complete los siguentes campos para realizar el alta en nuestraweb.com</h1>
+        </header>
+        <main>
+            <fieldset style="background-color: #d59825;">
+                <legend>Datos personales</legend>
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="Nombre" required value="" >
+                    <label for="Apellido">Apellidos</label>
+                    <input type="text" name="Apellido" required value="" id="">
+                </p>
+                <p>
+                    <label for="Fecha">Fecha de nacimiento</label>
+                    <input type="date" name="fecha">
+                    <label for="Email"> Correo</label>
+                    <input type="email" name="correo" required value="">
+                </p>
+                <p>
+                    <label for="DNI">DNI</label>
+                    <input type="text" name="dni">
+                    <label for="Teléfono">Teléfono</label>
+                    <input type="tel" name="teléfono">
+                </p>
+                <p>
+                    <label for="Usuario">Usuario</label>
+                    <input type="text" name="text" required value="">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required value="">
+                </p>
+                <p>
+                    <label for="Sexo">Sexo</label>
+                    <input type="radio" name="sexo" id="">Hombre
+                    <input type="radio" name="sexo" id="">Mujer
+                </p>
+                <p>
+                    <label for="Provincia">Provincia de nacimiento</label>
+                    <select name="Provincia" id="">
+                        <option value="0" selected></option>
+                        <option value="1">Zaragoza</option>
+                        <option value="2">Madrid</option>
+                        <option value="3">Barcelona</option>
+                        <option value="4">Galicia</option>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset style="background-color: #d46c23;">
+                <legend>Datos adicionales</legend>
+                <p>
+                    <label for="Dispositivos">Dispositivos electrónicos disponibles en el hogar</label>
+                    <br>
+                    <input type="checkbox" name="Dispositivos" id="" value="opc1">PC
+                    <br>
+                    <input type="checkbox" name="Dispositivos" id="" value="opc2">Tableta
+                    <br>
+                    <input type="checkbox" name="Dispositivos" id="" value="opc3">Móvil
+                </p>
+                <p>
+                    <label for="Estudios">Estudios completados</label>
+                    <input type="datalist" name="estudios" id="">
+                </p>
+                <p>
+                    <label for="Ingles">Nivel de inglés de 1 a 10</label>
+                    <input type="range" name="Ingles" id="">
+                </p>
+                <p>
+                    <label for="editor">Editor HTML favorito</label>
+                    <input type="text" name="editor">
+                </p>
+            </fieldset>
+        </main>
+        <footer>
+            <label for="Enviar"></label>
+            <a href="Actividad2.16.html"><input type="button" value="Enviar"></a>
+            <label for="Borrar"></label>
+            <button type="reset">Borrar</button>
+        </footer>
+    </form>    
+</body>
+</html>
